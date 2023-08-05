@@ -32,6 +32,6 @@ jobs:
           platforms: linux/amd64,linux/arm/v7,linux/arm64/v8
           push: true
           tags: |
-            maxxx00m/networking-debug:${{ GITHUB_REF }}
+            maxxx00m/networking-debug:${{ github.ref }}
             maxxx00m/networking-debug:latest
 
